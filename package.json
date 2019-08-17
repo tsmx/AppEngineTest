@@ -1,0 +1,19 @@
+{
+  "name": "appenginetest",
+  "version": "1.0.0",
+  "description": "a simple test for google app engine",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "10.x.x",
+    "npm": "6.x.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.2.1"
+  }
+}
