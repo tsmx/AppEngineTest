@@ -4,7 +4,6 @@
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -29,5 +28,6 @@
             "error",
             "always"
         ]
-    }
+    },
+    "extends": ["eslint:recommended"]
 }
