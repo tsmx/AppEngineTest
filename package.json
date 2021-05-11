@@ -10,8 +10,12 @@
     "node": "10.x.x",
     "npm": "6.x.x"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "tsmx <dev@tsmx.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsmx/appenginetest.git"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "winston": "^3.2.1"

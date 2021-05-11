@@ -5,8 +5,8 @@ const logger = require('./utils/logging').logger;
 app.get('/', (req, res) => {
     logger.info('Reqest received from: ' + req.ip);
     res.status(200).json({
-        info: 'Hello world from gcloud AppEngine!',
-        version: '1.2'
+        info: 'Hello world from AppEngine!',
+        version: '1.0.0'
     });
 });
 
