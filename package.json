@@ -4,7 +4,8 @@
   "description": "a simple test for google app engine",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "true"
   },
   "engines": {
     "node": "10.x.x",
